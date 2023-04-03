@@ -1,0 +1,97 @@
+body { 
+   width: 320px;
+   font-family : Arial, Helvetica, sans-serif; 
+   font-size : 14px; 
+   color : #222222; 
+   background-image : url(bilde/bakgrunn.gif); 
+   background-repeat : repeat; 
+   margin-left : 0px; 
+   margin-top : 0px; 
+   margin-right : 0px; 
+   margin-bottom : 0px; 
+ } 
+A:visited { 
+   color : #6699CC; 
+   text-decoration : underline; 
+ } 
+A:link { 
+   color : #6699CC; 
+   text-decoration : none; 
+ } 
+A:hover { 
+   color : #5E5AE5; 
+   text-decoration : underline; 
+ } 
+.margtekst { 
+   font-size : 14px; 
+   color : #888888; 
+   font-family : Arial, Helvetica, sans-serif; 
+   font-weight : normal; 
+ } 
+.bildetekst { 
+   font-size : 13px; 
+   color : #000000; 
+   font-family : Arial, Helvetica, sans-serif; 
+   font-weight : italic; 
+ } 
+.neste { 
+   font : bold 12px arial; 
+   text-transform : uppercase; 
+   text-decoration : none; 
+ } 
+#CONTAINER { 
+   margin-top : 0px; 
+   margin-right : auto; 
+   margin-bottom : 0px; 
+   margin-left : auto; 
+   padding : 0px; 
+   width : 320px; 
+   text-align : left; 
+   position : relative; 
+   border-left : 1px solid #F1F1F1; 
+   border-right : 1px solid #F1F1F1; 
+   background-color : #ffffff; 
+ } 
+#START { 
+   position : relative; 
+   text-align : center; 
+   width : 320px; 
+   left : 20px; 
+   height : 1200px; 
+ } 
+#HOVED { 
+   position : relative; 
+   width : 320px; 
+   left : 20px; 
+   height : 1200px; 
+ } 
+#MARG { 
+   position : absolute; 
+   background-color : #FFFFFF; 
+   top : 210px; 
+   left : 510px; 
+   width : 280px; 
+   padding : 0px; 
+ } 
+#MARG li { 
+   list-style-type : none; 
+   display : block; 
+   padding-left : 20px; 
+   padding-top : 0px; 
+   padding-bottom : 0px; 
+   margin-bottom : 5px; 
+   margin-top : 5px; 
+   background-image : url(bilde/link.gif); 
+   background-repeat : no-repeat; 
+   background-position : 5px 0px; 
+ } 
+#FOOTER { 
+   text-align : center; 
+   font : bold 10px arial; 
+   padding : 10px; 
+   text-transform : uppercase; 
+   margin-top : 0px; 
+   width : 320px; 
+   margin-bottom : 0px; 
+   height : 20px; 
+ } 
